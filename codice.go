@@ -7,7 +7,7 @@ import (
 
 var codex = regexp.MustCompile(`(?m)[0-9]{4}-[0-9]{5}`)
 
-// Codice il codice univoco del documento.
+// Codice recupera il codice univoco del documento.
 func Codice(text string) (string, error) {
 
 	codice := codex.FindString(text)
