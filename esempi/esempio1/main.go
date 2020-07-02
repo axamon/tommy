@@ -6,7 +6,7 @@ import (
 	"log"
 	"sort"
 
-	"golem/tommy"
+	"github.com/axamon/tommy"
 
 	"github.com/axamon/stringset"
 )
@@ -37,7 +37,6 @@ func main() {
 	}
 
 	// recupera parole comuni ovunque
-
 	var intersezione *stringset.StringSet
 	for i := range set {
 		if i == 0 {

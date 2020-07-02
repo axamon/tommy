@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"golem/tommy"
-	"golem/tommy/classificatore"
+	"github.com/axamon/tommy"
+	"github.com/axamon/tommy/classificatore"
 	"log"
 	"strings"
 
