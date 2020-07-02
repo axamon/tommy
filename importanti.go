@@ -27,6 +27,7 @@ func Importanti(testo string) map[string]float64 {
 	for _, periodo := range periodiOriginali {
 		periodo = strings.ToLower(periodo)
 		periodo = strings.ReplaceAll(periodo, ",", "")
+		periodo = strings.TrimSpace(periodo)
 		periodi = append(periodi, periodo)
 	}
 
