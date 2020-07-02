@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"golem/tommy"
 	"log"
 	"os"
+
+	"github.com/axamon/tommy"
 )
 
 // import (
